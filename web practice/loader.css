@@ -1,0 +1,18 @@
+div{
+    height: 100px;
+    width: 100px;
+   background-color: rgb(244, 228, 16);
+   border: 10px solid rgb(50, 36, 203);
+   border-radius: 50%;
+   border-top: 10px solid black;
+   animation: myanimation 1ms ease-in 1ms infinite normal;
+
+}
+@keyframes myanimation{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform:rotate(360deg);
+    }
+}
